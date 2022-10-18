@@ -9,26 +9,24 @@
 9. This code causes an error because let has block scope, so i is not accessible outside of the for loop.
 10. 3 will be printed because length was defined on line 4, and const has block scope, and line 12 is in the same block as line 4.
 11. This function will return [50, 100, 150] because the function cuts all of the prices in half.
-12.
-A) student.name
-B) student['Grad Year']
-C) student.greeting();
-D) student['Favorite Teacher'].name
-E) student.courseLoad[0]
+12. A) student.name
+    B) student['Grad Year']
+    C) student.greeting();
+    D) student['Favorite Teacher'].name
+    E) student.courseLoad[0]
 13.
-A) '32' since integers map to their exact string representation
-B) 1 since
-C) 3
-D) '3null' since integers map to their exact string representation
-E) 4 because true maps to 1
-F) 0 
-G) '3undefined' 
-H) NaN
-14.
-A) true
-B) false
-C) true
-D) false
-E) false because true maps to 1 and 1 != 2
-F) true
+    A) '32' since integers map to their exact string representation
+    B) 1 since
+    C) 3
+    D) '3null' since integers map to their exact string representation
+    E) 4 because true maps to 1
+    F) 0 
+    G) '3undefined' 
+    H) NaN
+14. A) true
+    B) false
+    C) true
+    D) false
+    E) false because true maps to 1 and 1 != 2
+    F) true
 15. the difference between == and === is that 
