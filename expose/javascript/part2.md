@@ -11,22 +11,27 @@
 11. This function will return [50, 100, 150] because the function cuts all of the prices in half.
 12. A) student.name
     B) student['Grad Year']
-    C) student.greeting();
+    C) student.greeting()
     D) student['Favorite Teacher'].name
     E) student.courseLoad[0]
 13.
     A) '32' since integers map to their exact string representation
-    B) 1 since
-    C) 3
+    B) 1 since numeric conversion happens in mathematical expressions, so 3 - 2 = 1
+    C) 3 because null is converted to 0, so 3 + 0 = 3
     D) '3null' since integers map to their exact string representation
     E) 4 because true maps to 1
-    F) 0 
-    G) '3undefined' 
-    H) NaN
-14. A) true
-    B) false
-    C) true
-    D) false
-    E) false because true maps to 1 and 1 != 2
-    F) true
-15. the difference between == and === is that 
+    F) 0 because false maps to 0 and null maps to 0
+    G) '3undefined' since integers map to their exact string representation
+    H) NaN because undefined is NaN as a number, so 3 - NaN = NaN
+14. A) true because string '2' becomes the number 2
+    B) false because '2' is greater than the '1' in '12'
+    C) true because == does type conversions so 2 == 2 is true
+    D) false because === does not do type conversions, and a string is not equal to an integer
+    E) false because true maps to 1 and 1 != 2 
+    F) true because Boolean(2) = true, and true is equal to true
+15. The difference between == and === is that === is a strict equality operator, and == is non-strict. If the values being compared are different types, then === will return false immediately. On the other hand, == will do a type conversion before comparing the 2 values.
+17. The result will be [2,4,6]. On line 13, modifyArray() is called, so we will run through this function. We create an empty list, and for each value in [1,2,3], we will call doSomething() on it, and add this result to newArr. For 1, doSomething() returns 2, so this is now in newArr. For 2, doSomething() returns 4, so this is now in newArr. For 3, doSomething() returns 6, so this is now in newArr. modifyArray() then returns this newArr.
+19. 1 
+    4 
+    3 
+    2 
