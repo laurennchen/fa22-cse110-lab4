@@ -9,11 +9,11 @@
 9. This code causes an error because let has block scope, so i is not accessible outside of the for loop.
 10. 3 will be printed because length was defined on line 4 (the length of the prices list is 3), and const has block scope, and line 12 is in the same block as line 4.
 11. This function will return [50, 100, 150] because the for loops loops through all the prices in the list, and it cuts all of the prices in half and adds the new prices to a list that we return at the end.
-12. A) student.name
-    B) student['Grad Year']
-    C) student.greeting()
-    D) student['Favorite Teacher'].name
-    E) student.courseLoad[0]
+12. A) student.name\
+    B) student['Grad Year']\
+    C) student.greeting()\
+    D) student['Favorite Teacher'].name\
+    E) student.courseLoad[0]\
 13.
     A) '32' since integers map to their exact string representation
     B) 1 since numeric conversion happens in mathematical expressions, so 3 - 2 = 1
