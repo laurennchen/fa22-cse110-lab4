@@ -7,7 +7,7 @@
 7. 150 will be printed because finalPrice is defined on line 8 with discountedPrice equal to 150 (since i = 2 in last round of for loop iteration), and after the calculations, finalPrice is equal to 150. Since finalPrice was defined outside the for loop, it is accessible outside the for loop, which is why we can print out this value outside the for loop.
 8. This function will return [50, 100, 150] because the for loops loops through all the prices in the list, and it cuts all of the prices in half and adds the new prices to a list that we return at the end.
 9. This code causes an error because let has block scope, so i is not accessible outside of the for loop.
-10. 3 will be printed because length was defined on line 4, and const has block scope, and line 12 is in the same block as line 4.
+10. 3 will be printed because length was defined on line 4 (the length of the prices list is 3), and const has block scope, and line 12 is in the same block as line 4.
 11. This function will return [50, 100, 150] because the function cuts all of the prices in half.
 12. A) student.name
     B) student['Grad Year']
